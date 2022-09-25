@@ -5,9 +5,11 @@ int main()
 {
     int a;
     cin >> a;
-    if (a % 2 == 0)
-        cout << "Even";
+    
+    if(a&1==1)
+        cout<<"odd";
     else
-        cout << "Odd";
+        cout << "Even";  
+        // This is fast than mod
     return 0;
 }
