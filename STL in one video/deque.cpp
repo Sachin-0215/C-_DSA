@@ -20,26 +20,28 @@ int main()
     }
     cout << endl;
 
-    // dq.pop_front();
-    // dq.pop_back();
+    dq.pop_front();
+    dq.pop_back();
 
-    // for(int i:dq){
-    //     cout << i << " ";
-    // }
-    // cout << endl;
+    for(int i:dq){
+        cout << i << " ";
+    }
+    cout << endl;
 
-    cout << "Print fifth Element ->" << dq.at(5) << endl;
-    cout << "Front " << dq.front() << endl;
-    cout << "Back " << dq.back() << endl;
-    cout << "Empty or not " << dq.empty() << endl;
+    //element indexing start from 0
+    cout << "Print third Element -> " << dq.at(3) << endl;
+    cout << "Front -> " << dq.front() << endl;
+    cout << "Back -> " << dq.back() << endl;
+    cout << "Empty or not -> " << dq.empty() << endl;
 
-    cout << "Before erase " <<dq.size()<< endl;
+    cout << "Before erase : " <<dq.size()<< endl;
     dq.erase(dq.begin(), dq.begin() + 1);
-    cout << "After Erase " << dq.size() << endl;
+    cout << "After Erase : " << dq.size() << endl;
 
     for(int v:dq){
         cout << v << " ";
     }
     cout << endl;
+    
     return 0;
 }

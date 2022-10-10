@@ -20,8 +20,10 @@ int main()
     }
     cout << endl;
 
-    cout << "Size of list " << L.size()<<endl;
+    cout << "Size of list : " << L.size()<<endl;
+    
     //copying list from another list
+
     list<int> l(5,100);
     for(int i:l){
         cout << i << " ";

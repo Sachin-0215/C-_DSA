@@ -6,20 +6,20 @@ using namespace std;
 int main()
 {
     vector<int> v;
-    cout << "Size ->" << v.size() << endl;
+    cout << "Capacity -> " << v.size() << endl;
 
     v.push_back(1);
 
-    cout << "Capacity ->" << v.capacity() << endl;
-
+    cout << "Capacity -> " << v.capacity() << endl;
+ 
     v.push_back(2);
 
-    cout << "Capacity ->" << v.capacity() << endl;
+    cout << "Capacity ->  " << v.capacity() << endl;
 
     v.push_back(3);
 
-    cout << "Capacity ->" << v.capacity() << endl;
-    cout << "Size ->" << v.size() << endl;
+    cout << "Capacity -> " << v.capacity() << endl;
+    cout << "Size -> " << v.size() << endl;
 
     cout << "Element at 2nd Index: " << v.at(2) << endl;
     cout << "Front " << v.front() << endl;
@@ -43,16 +43,19 @@ int main()
     cout << endl;
     cout << "Before clear size " << v.size() << endl;
     v.clear();
-    cout << "After clear size " << v.size() << endl;
+    cout << "After clear size " << v.size() << endl<<endl;
+
+    
     vector<int> a(5,1); // size 5 of all element 1
-    cout << "a " << endl;
+    cout << "a : ";
     for (int j:a){
         cout << j << " ";
     }
     cout << endl;
+
     // copying vector a to another vector m;
     vector<int> m(a);
-    cout << "m " << endl;
+    cout << "m : " ;
 
     for (int j:m){
         cout << j << " ";
