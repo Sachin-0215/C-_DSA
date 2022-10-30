@@ -18,7 +18,7 @@ void gfghardpattern(int n)
 
 int main()
 {
-    // gfghardpattern(4);
+    gfghardpattern(4);
     cout << min(min(12, 15), min(14, 9));
 
     return 0;

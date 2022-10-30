@@ -1,31 +1,24 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-
-
-/*
+/*  *         *
+    * *     * *
+    * * * * * *
+    * * * * * *
+    * *     * *
     *         *
-    
 
 */
-
+void printButterfly(int n)
+{
+    
+    
+}
 
 int main()
 {
     int n;
-    cin>>n; //6
-    for (int i = 1; i <= n;i++){
-        for (int j = 1; j <= i; j++)
-        {
-            cout << "* ";                                 
-        }
-        for (int j = 1; j < n - i;j++){
-            cout<<" ";
-        }
-        for (int j = 1; j <= i;i++){
-            cout << "* ";
-        }
-        cout << endl;
-    }
-        return 0;
+    cin >> n; // 6
+    printButterfly(n);
+    return 0;
 }

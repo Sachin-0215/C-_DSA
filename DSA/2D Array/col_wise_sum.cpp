@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void col_wise_sum(int a[3][4], int row, int col)
+void col_wise_sum(int a[][4], int row, int col)
 {
     int Max = INT16_MIN;
     for (int i = 0; i < col; i++)

@@ -66,8 +66,8 @@ int main()
     Root->Rchild->Lchild = new Node(6);
     Root->Rchild->Rchild = new Node(7);
     cout << "BFS is : " << endl;
-    levelOrder(Root);
-    // LevelOrder(Root);
+    // levelOrder(Root);
+    LevelOrder(Root);
     
     return 0;
 }

@@ -23,7 +23,7 @@ string is_palindrome(int n)
 
 int main()
 {
-    int a = 55555;
+    int a = 5555;
     cout << is_palindrome(a);
 
     return 0;
