@@ -61,6 +61,8 @@ vector<int> intersection_of_array(vector<int> &nums1, vector<int> &nums2)
     return ans;
 }
 
+// union of two array
+
 int main()
 {
     vector<int> nums1{4, 7, 9, 5,8};
