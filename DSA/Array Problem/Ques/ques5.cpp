@@ -3,24 +3,24 @@
 using namespace std;
 
 void Sort012(int arr[],int n){
-    // int low = 0, high = n - 1,mid=0;
-    // while(mid<=high){
-    //     switch (arr[mid])
-    //     {
-    //     case 0:
-    //         swap(arr[low++], arr[mid++]);
-    //         break;
-    //     case 1:
-    //         mid++;
-    //         break;
-    //     case 2:
-    //         swap(arr[mid], arr[high--]);
-    //         break;
-    //     }
-    // }
+    int low = 0, high = n - 1,mid=0;
+    while(mid<=high){
+        switch (arr[mid])
+        {
+        case 0:
+            swap(arr[low++], arr[mid++]);
+            break;
+        case 1:
+            mid++;
+            break;
+        case 2:
+            swap(arr[mid], arr[high--]);
+            break;
+        }
+    }
 
     //using sort
-    sort(arr, arr + n);//begin,end
+    // sort(arr, arr + n);//begin,end
 }
 
 int main()
