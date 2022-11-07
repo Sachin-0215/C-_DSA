@@ -10,7 +10,7 @@ int main()
     m[13] = "DEVELOPEMENT";
     m[2] = "TECHNICAL ";
 
-    // m.insert({5, "Communcation"});
+    m.insert({5, "Communcation"});
 
     for (auto i : m)
     {
@@ -28,6 +28,7 @@ int main()
         cout << i.first << " -> " << i.second << endl;
     }
     cout << endl;
+
     m.erase(13);
     cout << "After erase -> " << endl;
     for (auto i : m)

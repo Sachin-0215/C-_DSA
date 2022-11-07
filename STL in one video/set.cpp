@@ -7,10 +7,10 @@ using namespace std;
 int main()
 {
     set<int> s;
-    // s.insert(8);
-    // s.insert(8);
-    // s.insert(4);
-    // s.insert(28);
+    s.insert(8);
+    s.insert(8);
+    s.insert(4);
+    s.insert(28);
     s.insert(83);
     s.insert(18);
     s.insert(8);
